@@ -19,7 +19,7 @@ dgeom(x, p)
 ```
 Maka hasilnya adalah : 
 </br>
-<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/1A.jpg?raw=true" width="150" height="100">
+<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/1A.jpg?raw=true">
 
 #### 1b
 mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribusi geometrik acak tersebut X = 3 ( distribusi geometrik acak () == 3 )
@@ -31,8 +31,8 @@ x
 ```
 Maka didapatkan jawaban yang berubah-ubah karena melakukan distribusi geometri secara acak, sehingga jawaban yg mungkin didapatkan:
 </br>
-<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/1B.1.jpg?raw=true" width="150" height="100">
-<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/1B.2.jpg?raw=true" width="150" height="100">
+<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/1B.1.jpg?raw=true">
+<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/1B.2.jpg?raw=true">
 
 #### 1c
 Bandingkan Hasil poin a dan b , apa kesimpulan yang bisa didapatkan?
@@ -70,7 +70,7 @@ ggplot(aes(x = factor(x), y = prob, fill = fail)) +
 ```
 Maka hasil yang didapatkan adalah 
 </br>
-<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/1D.jpg?raw=true" width="150" height="100">
+<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/1D.jpg?raw=true">
 
 #### 1e
 Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Geometrik.
@@ -84,7 +84,12 @@ rataan
 varian = (n - p) / ('^'(p, 2))
 varian
 ```
+Maka hasilnya adalah 
+</br>
+<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/1E.jpg?raw=true">
 
+
+</br>
 
 Referensi : 
 https://rpubs.com/mpfoley73/458721
