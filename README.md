@@ -236,3 +236,54 @@ varian
 Hasilnya sebagai berikut
 </br>
 <img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/4C.jpg?raw=true">
+
+### Nomor 5
+#### 5a
+Fungsi Probabilitas dari Distribusi Exponensial
+```
+set.seed(1)
+rexp(3)
+```
+Hasilnya sebagai berikut
+</br>
+<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/5A.jpg?raw=true">
+
+#### 5b
+Histogram dari Distribusi Exponensial untuk 10, 100, 1000 dan 10000 bilangan random
+```
+hist(rexp(10))
+hist(rexp(100))
+hist(rexp(1000))
+hist(rexp(10000))
+```
+Hasilnya sebagai berikut
+
+</br>
+<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/5B.1.jpg?raw=true">
+
+</br>
+<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/5B.2.jpg?raw=true">
+
+</br>
+<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/5B.3.jpg?raw=true">
+
+</br>
+<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/5B.4.jpg?raw=true">
+
+#### 5c
+Nilai Rataan (μ) dan Varian ( σ² ) dari Distribusi Exponensial untuk n = 100 dan λ = 3
+- Mencari rara-rata menggunakan rumus `mean = 1 / lamda`
+```
+rataan <- 1 / lamda
+rataan
+```
+- Mencari varian menggunakan rumus `variance = 1 / (lamda^2)`
+```
+varian <- 1 / (lamda * lamda)
+varian
+```
+
+Hasilnya sebagai berikut
+
+</br>
+<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/5C.jpg?raw=true">
