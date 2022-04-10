@@ -143,6 +143,58 @@ Maka hasilnya adalah
 </br>
 <img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/2C.jpg?raw=true">
 
+### Nomor 3
+Diketahui data dari sebuah tempat bersalin di rumah sakit tertentu menunjukkan rata-rata historis
+4,5 bayi lahir di rumah sakit ini setiap hari. (gunakan Distribusi Poisson)
+#### 3a
+Berapa peluang bahwa 6 bayi akan lahir di rumah sakit ini besok?
 
+Menggunakan peluang distribusi poisson maka
+```
+dpois(6, 4.5)
+```
+Sehingga didapatkan
+</br>
+<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/3A.jpg?raw=true">
+#### 3b
+Menggunakan `geom_histogram` untuk menampilkan histogramnya
 
+```
+set.seed(2)
+babies <- data.frame('data' = rpois(365, 4.5))
+
+babies %>% ggplot() +
+  geom_histogram(aes(x = data, y = stat(count / sum(count)), fill = data == 6), binwidth = 1, color = 'black',) +
+  scale_fill_manual(values = c("#FFCC66", "#669933")) +
+  scale_x_continuous(breaks = 0:10) +
+  labs(x = 'Jumlah bayi lahir per periode', y = 'Proporsi', title = 'Simulasi kelahiran selama setahun (n=365) di rumah sakit') +
+  theme_bw()
+```
+Sehingga histogramnya adalah
+</br>
+<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/3B.jpg?raw=true">
+
+#### 3c
+kesimpulan yang didapatkan
+```
+Perbandingan poin a dan poin b kurang lebih sama karena nilai proporsi yang didapatkan di poin A 
+berada dalam range proporsi yang ada di poin B yaitu 0.10-0.15. Oleh karena itu, pengaruh perhitungan 
+dengan estimasi selama 365 hari memberikan hasil yang mendekati dengan peluang bayi akan dilahirkan keesokan harinya
+```
+
+#### 3d
+Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Poisson.
+- Mencari rara-rata menggunakan rumus `mean = lamda`
+```
+rataan <- l
+rataan
+```
+- Mencari varian menggunakan rumus `variance = lamda`
+```
+varian <- l 
+varian
+```
+Maka hasilnya adalah
+</br>
+<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/3D.jpg?raw=true">
 
