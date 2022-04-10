@@ -198,3 +198,41 @@ Maka hasilnya adalah
 </br>
 <img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/3D.jpg?raw=true">
 
+### Nomor 4
+#### 4a
+Fungsi Probabilitas dari Distribusi Chi-Square.
+Maka adalah sebagai berikut
+```
+x <- 2
+v <- 10
+dchisq(x, v)
+```
+Hasilnya sebagai berikut
+</br>
+<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/4A.jpg?raw=true">
+#### 4b
+Histogram dari Distribusi Chi-Square dengan 100 data random.
+Menggunakan fungsi `hist()` dan hasilnya nanti akan berubah-ubah setiap generate
+
+```
+hist(rchisq(100, v))
+```
+Hasilnya sebagai berikut
+</br>
+<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/4B.jpg?raw=true">
+
+#### 4c
+Nilai Rataan (μ) dan Varian ( σ² ) dari Distribusi Chi-Square.
+- Mencari rara-rata menggunakan rumus `mean = df`
+```
+rataan <- df
+rataan
+```
+- Mencari varian menggunakan rumus `variance = 2 * df`
+```
+varian <- 2 * df 
+varian
+```
+Hasilnya sebagai berikut
+</br>
+<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/4C.jpg?raw=true">
