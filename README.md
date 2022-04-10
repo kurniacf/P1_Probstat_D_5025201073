@@ -53,7 +53,7 @@ Setelah itu, menggunakan library seperti biasa
 ```
 library(dplyr)
 library(ggplot2)
-``
+```
 Dilakukan inisialisasi
 ```
 x=3
