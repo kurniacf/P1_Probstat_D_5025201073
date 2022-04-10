@@ -287,3 +287,59 @@ Hasilnya sebagai berikut
 
 </br>
 <img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/5C.jpg?raw=true">
+
+### Nomor 6
+#### 6a
+data generate randomnya dalam bentuk grafik. Petunjuk(gunakan fungsi plot()).
+Keterangan :
+X1 = Dibawah rata-rata
+X2 = Diatas rata-rata
+Contoh data :
+11
+1,2,4,2,6,3,10,11,5,3,6,8
+rata-rata = 5.083333
+X1 = 5
+X2 = 6
+
+```
+mean <- 50
+sd <- 8
+n <- 100
+z <- rnorm(n, mean, sd)
+z
+
+plot(z)
+```
+Hasilnya sebagai berikut
+
+</br>
+<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/6A.1.jpg?raw=true">
+
+Hasil plot sebagai berikut
+
+</br>
+<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/6A.2.jpg?raw=true">
+
+#### 6b
+Generate Histogram dari Distribusi Normal dengan breaks 50 dan format penamaan:
+NRP_Nama_Probstat_{Nama Kelas}_DNhistogram
+Contoh :
+312312312_Rola_Probstat_A_DNhistogram
+
+```
+hist(z, breaks = 50, main="5025201073_Kurnia Cahya Febryanto_D_DNhistogram")
+```
+Hasilnya sebagai berikut
+</br>
+<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/6B.jpg?raw=true">
+
+#### 6c
+Nilai Varian ( ) dari hasil generate random nilai σ² Distribusi Normal.
+- Mencari varian menggunakan rumus `variance = 1 / (lamda^2)`
+```
+varian <- sd * sd
+varian
+```
+Hasilnya sebagai berikut
+</br>
+<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/6C.jpg?raw=true">
