@@ -335,7 +335,7 @@ Hasilnya sebagai berikut
 
 #### 6c
 Nilai Varian ( ) dari hasil generate random nilai σ² Distribusi Normal.
-- Mencari varian menggunakan rumus `variance = 1 / (lamda^2)`
+- Mencari varian menggunakan rumus `variance = sd * sd`
 ```
 varian <- sd * sd
 varian
