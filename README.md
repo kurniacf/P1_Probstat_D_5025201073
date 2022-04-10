@@ -99,6 +99,10 @@ Peluang terdapat 4 pasien yang sembuh.
 ```
 dbinom(x = 4, size = 20, prob = 0.2)
 ```
+Maka hasilnya adalah
+</br>
+<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/2A.jpg?raw=true">
+
 #### 2b
 Gambarkan grafik histogram berdasarkan kasus tersebut.
 Inisialiasi
@@ -120,6 +124,9 @@ data.frame(heads = 0:10, prob) %>%
   geom_text(aes(label = round(prob, 2), y = prob + 0.01)) +
   labs(title = "Peluang jika X = 4 pasien sembuh.", x = "Sukses (x)", y = "Peluang") 
 ```
+Maka hasilnya adalah
+</br>
+<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/2B.jpg?raw=true">
 #### 2c
 Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Binomial.
 - Mencari rara-rata menggunakan rumus `mean = n * p`
@@ -132,6 +139,10 @@ rataan
 varian <- n * p * (1 - p)
 varian
 ```
+Maka hasilnya adalah
+</br>
+<img src="https://github.com/kurniacf/P1_Probstat_D_5025201073/blob/master/Screenshot/2C.jpg?raw=true">
+
 
 
 
